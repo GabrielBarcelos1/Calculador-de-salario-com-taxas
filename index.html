@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de salario</title>
+    <link rel="stylesheet" href="bootstrap-4.0.0//css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/Style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container">
+            <ul class="nav nav-pills nav-fill">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Salario</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Novo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Listar</a>
+                </li>
+              </ul>
+        </div><br>
+        <div class="container">
+            
+            <form>
+                <h4 class="h4Calculo">Calculo do Salario do Funcionario</h4>
+                <div class="form-group">
+                  <label>Nome</label>
+                  <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+                </div>
+                <div class="form-group">
+                  <label>Valor Por hora</label>
+                  <input type="text" class="form-control" id="valorHora" placeholder="Valor por hora">
+                </div>
+                <div class="form-group">
+                    <label>Horas Trabalhadas</label>
+                    <input type="text" class="form-control" id="horasTrabalho" placeholder="Horas trabalhadas">
+                </div>
+                <div class="form-group">
+                  <label>Bonificação</label>
+                  <input type="text" class="form-control" id="bonificacao" placeholder="Bonificação" readonly>
+                </div>
+                <div class="form-group">
+                    <label>Salario Bruto</label>
+                    <input type="text" class="form-control" id="salarioBruto" placeholder="Salario bruto" readonly>
+                </div>
+                <div class="form-group">
+                  <label>Valor do IRRF</label>
+                  <input type="text" class="form-control" id="valorIRRF" placeholder="Valor do IRRF" readonly>
+                </div>
+                <div class="form-group">
+                  <label>Salario Liquido</label>
+                  <input type="text" class="form-control" id="salarioLiquido" placeholder="salario Liquido" readonly>
+                </div>
+                <button type="submit" class="btn btn-primary" onclick=calculosUsuario()>Calcular</button>
+                <button type="submit" class="btn btn-light" onclick=limpar()>Limpar</button>
+              </form>
+        </div>
+
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap-4.0.0/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+form{
+    border: 2px solid gray;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(248, 244, 244);
+}
+.btn-light{
+    margin-left: 5px;
+}
+.container{
+    max-width: 550px;
+}
+.h4Calculo{
+    text-align: center;
+}
