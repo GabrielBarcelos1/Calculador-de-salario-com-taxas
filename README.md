@@ -44,7 +44,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [JavaScript](https://www.javascript.com/)
 
 ## 💻 Projeto
-O projeto dessa calculadora de salário veio por conta de uma atividade passada em sala de aula para botarmos em prática os aprendizados de Bootstrap e Jquery, basicamente a funcionalidade dele é fazer o cálculo de um salário mensal levando em conta descontos de impostos de renda e adicionando valores de comissão, nela foi trabalhado todo o tipo de validação possível e esquemas de cores para deixar isso claro para o usuário.
+O projeto dessa calculadora de salário veio por conta de uma atividade passada em sala de aula onde o intuito era botarmos em prática os aprendizados de Bootstrap e Jquery, basicamente a funcionalidade dele é fazer o cálculo de um salário mensal levando em conta descontos de impostos de renda e adicionando valores de comissão, nela foi trabalhado todo o tipo de validação possível e esquemas de cores para deixar isso claro para o usuário.
 
 
 ## 🌐 Frontend
