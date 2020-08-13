@@ -9,14 +9,17 @@ form{
 }
 .container{
     max-width: 550px;
+    padding-top: 25px;
 }
 .h4Calculo{
     text-align: center;
 }
-#a{
+#mensagemErro, #mensagemSucesso{
     margin-top: 4px;
     left: 15px;
     max-width: 490px;
     border-radius: 10px;
-    
+}
+.fa{
+    margin-right: 2px;
 }

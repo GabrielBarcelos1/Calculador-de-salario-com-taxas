@@ -10,58 +10,58 @@
 </head>
 <body>
     <div class="container">
-        <div class="container">
-            <ul class="nav nav-pills nav-fill">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Salario</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Novo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Listar</a>
-                </li>
-              </ul>
-        </div><br>
         
         <div class="container">
             
             <form>
                 <h4 class="h4Calculo">Calculo do Salario do Funcionario</h4>
                 <div class="form-group">
-                  <label>Nome</label>
+                  <label><i class="fa fa-user" aria-hidden="true"></i>
+                    Nome</label>
                   <input type="text" class="form-control" id="nome" placeholder="Seu nome">
                 </div>
                 <div class="form-group">
-                  <label>Valor Por hora</label>
+                  <label><i class="fa fa-money" aria-hidden="true"></i>
+                    Valor Por hora</label>
                   <input type="text" class="form-control" id="valorHora" placeholder="Valor por hora">
                 </div>
                 <div class="form-group">
-                    <label>Horas Trabalhadas</label>
+                    <label><i class="fa fa-clock-o" aria-hidden="true"></i>
+                      Horas Trabalhadas</label>
                     <input type="text" class="form-control" id="horasTrabalho" placeholder="Horas trabalhadas">
                 </div>
                 <div class="form-group">
-                  <label>Bonificação</label>
+                  <label><i class="fa fa-money" aria-hidden="true"></i>
+                    Bonificação</label>
                   <input type="text" class="form-control" id="bonificacao" placeholder="Bonificação" readonly>
                 </div>
                 <div class="form-group">
-                    <label>Salario Bruto</label>
+                    <label><i class="fa fa-money" aria-hidden="true"></i>
+                      Salario Bruto</label>
                     <input type="text" class="form-control" id="salarioBruto" placeholder="Salario bruto" readonly>
                 </div>
                 <div class="form-group">
-                  <label>Valor do IRRF</label>
+                  <label><i class="fa fa-money" aria-hidden="true"></i>
+                    Valor do IRRF</label>
                   <input type="text" class="form-control" id="valorIRRF" placeholder="Valor do IRRF" readonly>
                 </div>
                 <div class="form-group">
-                  <label>Salario Liquido</label>
+                  <label><i class="fa fa-money" aria-hidden="true"></i>
+                    Salario Liquido</label>
                   <input type="text" class="form-control" id="salarioLiquido" placeholder="salario Liquido" readonly>
                 </div>
-                <button type="button" class="btn btn-primary" onclick=calculosUsuario()>Calcular</button>
-                <button type="button" class="btn btn-light" onclick=limpar()>Limpar</button>
+                <button type="button" class="btn btn-primary" onclick=calculosUsuario()><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>Calcular</button>
+                
+                <button type="button" class="btn btn-danger" onclick=limpar()><i class="fa fa-trash-o" aria-hidden="true"></i>
+                  Limpar</button>
               </form>
         </div>
-        <div class="alert alert-danger collapse"id="a" role="alert">
-          Você precisa preencher <a href="#" class="alert-link">Nome, valor por hora, horas trabalhadas</a> para continuar
+        <div class="alert alert-danger collapse"id="mensagemErro" role="alert">
+          Você precisa preencher <a class="alert-link">
+          Nome, valor por hora, horas trabalhadas</a> para continuar.
+        </div>
+        <div class="alert alert-success collapse"id="mensagemSucesso" role="alert">
+          Valor calculado com sucesso!
         </div>
 
     </div>
