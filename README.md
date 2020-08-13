@@ -47,7 +47,7 @@ O projeto dessa calculadora de salário veio por conta de uma atividade passada 
 
 ## 🌐 Frontend
 <h1 align="center">
-    <img  src="https://github.com/GabrielBarcelos1/BeTheHero/blob/master" />
+    <img  src="https://github.com/GabrielBarcelos1/Calculador-de-salario-com-taxas/blob/master/CalculoSalario.gif" />
 </h1>
 
     
