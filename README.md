@@ -16,11 +16,12 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-tecnologias">🚀 Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">🚀 Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">💻 Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-frontend">🌐 Frontend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-contribuir">🤔 Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<br>
-    <a href="#memo-licença">🧾 Licença</a>
+  <a href="#-como-executar">🔖Como Executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-contribuir">🤔 Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">🧾 Licença</a>
 </p>
 
 <br>
@@ -43,7 +44,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [JavaScript](https://www.javascript.com/)
 
 ## 💻 Projeto
-O projeto dessa calculadora de salário veio por conta de uma atividade passada em sala de aula para botarmos em prática os aprendizados de Bootstrap e Jquery, basicamente a funcionalidade dele é fazer o cálculo de um salário mensal levando em conta descontos de impostos de renda e adicionando valores de comissão.
+O projeto dessa calculadora de salário veio por conta de uma atividade passada em sala de aula para botarmos em prática os aprendizados de Bootstrap e Jquery, basicamente a funcionalidade dele é fazer o cálculo de um salário mensal levando em conta descontos de impostos de renda e adicionando valores de comissão, nela foi trabalhado todo o tipo de validação possível e esquemas de cores para deixar isso claro para o usuário.
+
 
 ## 🌐 Frontend
 <h1 align="center">
@@ -57,7 +59,7 @@ O projeto dessa calculadora de salário veio por conta de uma atividade passada 
 ```sh
 git clone https://github.com/GabrielBarcelos1/Calculador-de-salario-com-taxas.git
 cd Calculador-de-salario-com-taxas
-npm install
+Depois disso é so mecher no projeto.
 ```
 
 
