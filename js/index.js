@@ -1,8 +1,13 @@
 const calculosUsuario = () =>{
+    if( verificacao() == 1 ){
     calculoSalario()
     calcularIRRF()
     calcularBonificacao()
     calcularSalarioLiquido()
+    $('#a').hide('fade')
+    }else{
+        $('#a').show('fade')
+    }
     
 }
 
@@ -22,7 +27,7 @@ const limpar = () =>{
     document.getElementById('salarioBruto').value = ""
     document.getElementById('valorIRRF').value = ""
     document.getElementById('bonificacao').value = ""
-    document.getElementById('salarioLiquido').value = salarioLiquido
+    document.getElementById('salarioLiquido').value = ""
 }
 
 const calcularIRRF = () =>{
@@ -66,4 +71,14 @@ const calcularSalarioLiquido = () => {
     let bonificacao = parseFloat(document.getElementById('bonificacao').value)
     let salarioLiquido = salarioBruto + bonificacao - valorIRRF
     document.getElementById('salarioLiquido').value = salarioLiquido.toFixed(2)
+}
+const verificacao = () => {
+    let nome = document.getElementById('nome').value
+    let valorHora = document.getElementById('valorHora').value
+    let horasTrabalho = document.getElementById('horasTrabalho').value
+    if(nome === "" || valorHora === "" || horasTrabalho === "" ){
+        return 0
+    }else{
+        return 1
+    }
 }
