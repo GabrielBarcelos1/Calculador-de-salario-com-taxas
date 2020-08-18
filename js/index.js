@@ -4,10 +4,9 @@ const calculosUsuario = () =>{
     calcularIRRF()
     calcularBonificacao()
     calcularSalarioLiquido()
-    $('#mensagemErro').hide()
-    $('#mensagemSucesso').show('fade')
+    PopupSucesso()
     }else{
-        $('#mensagemErro').show()
+        PopupErro()
     }
     
 }
@@ -29,8 +28,6 @@ const limpar = () =>{
     document.getElementById('valorIRRF').value = ""
     document.getElementById('bonificacao').value = ""
     document.getElementById('salarioLiquido').value = ""
-    $('#mensagemSucesso').hide('fade')
-    $('#mensagemErro').hide()
     BordeInputsGray()
 }
 
@@ -105,4 +102,22 @@ const BordeInputsGray = () => {
     $('#nome').css('border-color', 'rgb(202, 200, 200')
     $('#valorHora').css('border-color', 'rgb(202, 200, 200')
     $('#horasTrabalho').css('border-color', 'rgb(202, 200, 200')
+}
+
+const PopupErro = ()=>{
+    const EsconderPopup = ()=>{
+        $('#mensagemErro').hide("fade")
+    }
+    $('#mensagemErro').show()
+
+    setTimeout(EsconderPopup,2000)
+}
+
+const PopupSucesso = ()=>{
+    const EsconderPopup = ()=>{
+        $('#mensagemSucesso').hide("fade")
+    }
+    $('#mensagemSucesso').show()
+
+    setTimeout(EsconderPopup,2000)
 }
